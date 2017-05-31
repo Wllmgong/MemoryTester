@@ -1,0 +1,75 @@
+Briefly address the following points, modify this text file and include it 
+in your reply.
+------------------------------------------------------------------------------
+
+ 
+Explain the conceptual distinctions between scripting languages, C++, C, 
+and assembly and when it is appropriate and inappropriate to use each.
+--------------------------------------
+C is a procedural programming language where it does not support classes and objects, while c++ is a combination of both procedural
+and object oriented programming langugage. C is a lower level language which is compatiable working with other languages. 
+Assembly language is very different from c and c++, where it is suited towards computer architecture. 
+
+In majority of the cases, C++ is the language to use. Only when the platform doesn't support c++, interaction with other languages or platform can only 
+interact with c, which is usually the lowest common denominator on any platform. 
+C and assembly have small compilers which is faster for smaller projects. 
+
+In most cases, C++ is the langugage to use for a wide variety of projects. 
+
+Describe the limitations of code reuse through inheritance in a large, 
+diverse codebase.  Propose alternative solutions to these limitations.
+--------------------------------------
+Inheritance allows for reducing the need to create new classes and codes by reusing, but for a large, diverse project, it can create many problems. 
+For example, one super class for walking animals, one for swimming animals, and another for flying animals. These three categories can cover a large 
+of subclasses. However, for an animal a penguin can both swin and walk have the properties of two super class can only inherit one. After inherting a class,
+the class is limited to use the functions of the superclass. The subclasses are their parent classes forming a strict hierachy. 
+Where in a large program, these problems can happen frequently. 
+
+A solution is to implement codes that describe the action. So that each class would include the actions they want to include in each class. 
+For example, penguin would include both the swimming and walking action to penguin. In addition, it has the freedom to add addition actions for the 
+class penguin to use. Other classes can also include th swimming and walking action. It's a bit more work than inheritance, but it fixes the problem 
+inheritance provides.
+
+
+Compare and contrast the biggest challenges of console game development
+versus PC game development.
+--------------------------------------
+By my understand of PC game development, I think video deveopment is the most challenging, because of a large variety of graphics card exist. 
+PC graphics programmers have to take in each possible version of graphic cards and develop the game to support each. Where as consoles all have the 
+same video card, so the console game developers can have a default video setting for each game. 
+
+The biggest challges to console game development is altering the game after completion. Many PC games are downloadable which allows the developers
+to alter the game after putting it on the market. In addition, many fan made contents are easy to download and install on the PC which give the developers a 
+large amount of freedom. Where as the console developers have to complete the game before release and it's much more diffcult to alter the game after release. Also, 
+harder for fun content to be closely involved with each game.
+
+How would you attempt to understand the design of a large code base in a short
+period of time?
+--------------------------------------
+When I explore the web to understand how some program works is for me to download the program first and use eclipse to step through the code line by line to figure
+out codes where I dont understand. If the codes arent as big or can't be used in a debug program, then I pull out a piece of paper to follow the code line by line
+and figure out how does an input changes throughout the code. If can alter the code safely, then I will test around and see how the outcome changes.
+In the end, if it is a code i can't figure out myself, then I will find a co-worker or a mentor who understands the design better than I do. 
+
+Talk about a few Best Practices you use when programming in a team environment.
+--------------------------------------
+The majoriy of the course work at school is done solo, only two instance where I was able to work in teams. During my freshman summer of colege, I had the opportunity
+to work a for a professor on his website. This internship was a more of learning experience where the proffesor wanted me to explore website development. He had a couple
+computer science graduate students working for him, who had many more years of experience in programming. When a problem occured where the web and my own skill wasn't 
+enough to solve, I was able schedule a meeting with the graduate students. Turned out, the problem was due to the server set up did not support PHP. Where the graduate 
+students were to identify and assist me. The other time is during a partner project where I had to work with an person. Beforehand, we talked about all the variables we 
+were going to use and designed the project together and create a class skeleton. So all we needed to do is to in each method and class to complete the project.
+Communication is very important when working with another, my partner was a close friend so it was easy for me to communicate my ideas and way to program the project.
+
+Discuss an instance of a bad game design decision in an otherwise good game.
+--------------------------------------
+Starwars Battlefront has been one of my favorite games. Since EA took over and created the new sequel, the game has not been the same.
+There are many aspects of the game are lacking, but I am going to focus on the map designs. In Starwars Battlefront 2, the vehicles make a 
+large impact on how the map is played. Hoth is my favorite map which is like the movie, The Empire Stikes Back, where the vehicles dictates 
+the battle. The AT-AT versue the snowspeeders shows true to the movies and a fun interactive vehicle battle. Which shows the power of AT-AT and how
+difficult it was to take one down. Another map, kashyyyk, where the map the driod army has many vehicles and the clone army has stationed defensive
+structures and sniping vantage points to defend against the vehicles. Each map has it's only unique play style from map structure to variety of vehicle selection.
+Which is lost in EA's version of Starwars Battlefront. Many maps have a very beautiful graphics, but lack a unique playstyle. Each map has a similar play style,
+which is repetitive even when play different maps and game modes. The Starwars concept bring in a large market and EA has created many good FPS games. 
+Starwars Battlefront is incomplete, lagging many in game design and features where the problems can be fixed with time as EA continue to develop the game.
+
